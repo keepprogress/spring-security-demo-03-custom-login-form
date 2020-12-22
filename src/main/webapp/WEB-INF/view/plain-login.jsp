@@ -12,7 +12,6 @@
 
 	<form:form action="${pageContext.request.contextPath}/authenticateTheUser"
 				method="POST">
-	</form:form>
 	
 	<p>
 		User name: <input type="text" name="username" />
@@ -23,6 +22,9 @@
 	</p>
 	
 	<input type="submit" value="Login" />
+	
+		</form:form>
+	
 	
 </body>
 
